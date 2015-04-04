@@ -1,0 +1,20 @@
+{
+    "name": "alanmonger/vhost",
+    "description": "A lib to manage virtual hosts",
+    "license": "mit",
+    "require-dev": {
+        "phpunit/phpunit": "~4.6",
+        "mockery/mockery": "~0.9"
+    },
+    "authors": [
+        {
+            "name": "Alan Monger",
+            "email": "alan@alanmonger.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vhost\\" : "VHost/"
+        }
+    }
+}
